@@ -2,8 +2,6 @@ import java.awt.Color;
 
 import java.awt.image.*;
 import java.io.*;
-import java.util.ArrayList;
-import java.util.Iterator;
 
 import javax.imageio.ImageIO;
 public class GreenScreen {

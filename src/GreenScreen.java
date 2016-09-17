@@ -32,7 +32,7 @@ public class GreenScreen {
 					}
 				}
 			}
-			ImageIO.write(image, "png", new File(
+			ImageIO.write(image, "jpeg", new File(
 			        path + out));
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -48,6 +48,6 @@ public class GreenScreen {
 	}
 	public static void main(String args[]){
 		GreenScreen gs = new GreenScreen();
-		gs.greenScreen("fore.png", "back.png", "file.png");
+		gs.greenScreen("fore.jpeg", "back.jpeg", "file.jpeg");
 	}
 }
